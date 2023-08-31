@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Card</title>
+    <style>
+        .card-containers{
+            box-sizing: border-box;
+            display: flex;
+            flex-wrap: wrap;
+            padding: 20px 10px;
+            background-color: aquamarine;
+            align-items: center;
+            justify-content: center;
+        }
+        .card{
+            width: 300px;
+            margin: 10px;
+            box-sizing: border-box;
+            box-shadow: 5px 10px 15px white;            
+        }
+        .card:hover{
+            box-shadow: 1px 1px 5px black;
+        }
+        .img-style{
+            width: 100%;
+        }
+        .card-body{
+            padding: 5px;
+            background-color: brown;
+        }
+        .card-title{
+            font-size: 2rem;
+            text-align: center;
+            color: wheat;
+        }
+        .card-details{
+            text-align: justify;
+            line-height: 1.25;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="card-containers">
+        <div class="card">
+            <img class="img-style" src="images2.jpg" alt="images">
+            <div class="card-body">
+                <div class="card-title">
+                    Python Programming
+                </div>
+                <div class="card-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae distinctio, in incidunt vel doloremque ipsum tenetur mollitia possimus sit culpa beatae est sapiente ea, maiores praesentium. Sapiente eligendi iusto, asperiores reiciendis tempore repellendus illum placeat nulla eos ut neque dolores reprehenderit quam exercitationem? Nam, iste et. Dignissimos, porro ullam!</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style" src="images2.jpg" alt="images">
+            <div class="card-body">
+                <div class="card-title">
+                    Python Programming
+                </div>
+                <div class="card-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae distinctio, in incidunt vel doloremque ipsum tenetur mollitia possimus sit culpa beatae est sapiente ea, maiores praesentium. Sapiente eligendi iusto, asperiores reiciendis tempore repellendus illum placeat nulla eos ut neque dolores reprehenderit quam exercitationem? Nam, iste et. Dignissimos, porro ullam!</p>
+                </div>
+            </div>
+        </div>
+        <div class="card">
+            <img class="img-style" src="images2.jpg" alt="images">
+            <div class="card-body">
+                <div class="card-title">
+                    Python Programming
+                </div>
+                <div class="card-details">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quo recusandae distinctio, in incidunt vel doloremque ipsum tenetur mollitia possimus sit culpa beatae est sapiente ea, maiores praesentium. Sapiente eligendi iusto, asperiores reiciendis tempore repellendus illum placeat nulla eos ut neque dolores reprehenderit quam exercitationem? Nam, iste et. Dignissimos, porro ullam!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>
